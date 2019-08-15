@@ -11,7 +11,10 @@ const link = {
   color: 'white',
 }
 
-
+const Navbar = () =>
+  <div>
+    <NavLink
+      to="/" exact style={link}
 
 class Home extends React.Component {
   render() {
